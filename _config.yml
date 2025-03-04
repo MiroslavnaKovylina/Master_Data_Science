@@ -1,6 +1,6 @@
-title: Miroslavna Kovylina Zabyako
+title: "Miroslavna Kovylina Zabyako"
 logo: "MiroslavnaKovylina.png"
-description: Data Scientist
+description: "Data Scientist"
 theme: jekyll-theme-minimal
 plugins:
-  -jekyll-seo-tag 
+  - jekyll-seo-tag
