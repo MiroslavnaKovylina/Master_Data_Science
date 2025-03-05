@@ -5,17 +5,9 @@
 /* Importar la fuente de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-/* Cambiar la fuente y el color del texto sobre la foto */
-.site-title, .site-description {
-  font-family: 'Roboto Slab', serif; /* Cambiar la fuente a Roboto Slab */
-  color: #808080; /* Cambiar el color del texto, usa el color que prefieras */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Opcional: agregar sombra al texto para mejorar la visibilidad sobre la imagen */
-}
-
-/* Opcional: Cambiar el color de la fuente en el encabezado */
-header .site-header {
-  color: #808080; /* Cambiar el color del texto en el encabezado */
-  font-family: 'Roboto Slab', serif; /* Cambiar la fuente en el encabezado */
+h1, .site-title {
+  color: #333333; /* Gris oscuro */
+  font-family: 'Roboto Slab', serif;
 }
 
 body {
