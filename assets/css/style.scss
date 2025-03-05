@@ -21,3 +21,7 @@ header .site-header {
 body {
   font-family: "Roboto Slab", serif;
 }
+/* Ocultar el texto "This project is maintained by ..." */
+footer .site-footer {
+  display: none;
+}
