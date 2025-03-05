@@ -5,6 +5,16 @@
 /* Importar la fuente de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+/* Cambiar el color del enlace sobre la foto a gris oscuro */
+a.photo-link {
+    color: #333333; /* Gris oscuro */
+    text-decoration: none; /* Opcional: eliminar el subrayado */
+}
+
+a.photo-link:hover {
+    color: #555555; /* Un gris ligeramente más claro al pasar el ratón */
+}
+
 h1, .site-title {
   color: #333333; /* Gris oscuro */
   font-family: 'Roboto Slab', serif;
