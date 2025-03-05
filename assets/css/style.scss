@@ -14,13 +14,14 @@
 
 /* Opcional: Cambiar el color de la fuente en el encabezado */
 header .site-header {
-  color: #ffffff; /* Cambiar el color del texto en el encabezado */
+  color: #808080; /* Cambiar el color del texto en el encabezado */
   font-family: 'Roboto Slab', serif; /* Cambiar la fuente en el encabezado */
 }
 
 body {
   font-family: "Roboto Slab", serif;
 }
+
 /* Ocultar el texto "This project is maintained by ..." */
 footer .site-footer {
   display: none;
