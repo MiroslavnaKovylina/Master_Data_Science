@@ -16,25 +16,25 @@ footer { /* Footer */
 
 /* Cambiar el color del texto de los enlaces */
 a {
-    color: grey !important; /* Cambia a negro */
+    color: grey !important;
 }
 
 /* Cambiar el color del texto de los párrafos */
 p {
-    color: black !important; /* Cambia a negro */
+    color: grey !important;
 }
 
 /* Cambiar el color del texto de los títulos */
 h1, h2, h3, h4, h5, h6 {
-    color: black !important; /* Cambia a negro */
+    color: grey !important;
 }
 
 /* Cambiar el color del texto sobre la foto */
 header p {
-    color: grey !important; /* Cambia a negro */
+    color: grey !important;
 }
 
-/* Ocultar el texto "This project is maintained by ..." */
+/* Ocultar el footer */
 footer {
     display: none !important;
 }
