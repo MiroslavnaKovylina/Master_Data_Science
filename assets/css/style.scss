@@ -1,12 +1,22 @@
 ---
 ---
 
-@import "{{ site.theme }}"; 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); 
+@import "{{ site.theme }}"; /* Cargar el tema primero */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); /* Fuente personalizada */
+
+/* Cambiar la fuente de toda la página */
+body,
+h1, h2, h3, h4, h5, h6, /* Títulos */
+p, /* Párrafos */
+a, /* Enlaces */
+header p, /* Texto sobre la foto */
+footer { /* Footer */
+    font-family: "Roboto Slab", serif !important;
+}
 
 /* Cambiar el color del texto de los enlaces */
 a {
-    color: black !important; /* Cambia a negro */
+    color: grey !important; /* Cambia a negro */
 }
 
 /* Cambiar el color del texto de los párrafos */
@@ -21,12 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Cambiar el color del texto sobre la foto */
 header p {
-    color: black !important; /* Cambia a negro */
-}
-
-/* Cambiar la fuente del cuerpo */
-body {
-  font-family: "Roboto Slab", serif;
+    color: grey !important; /* Cambia a negro */
 }
 
 /* Ocultar el texto "This project is maintained by ..." */
