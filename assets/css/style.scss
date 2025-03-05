@@ -1,30 +1,35 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-/* Importar la fuente de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import "{{ site.theme }}"; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); 
 
 /* Cambiar el color del texto de los enlaces */
 a {
-    color: black; /* Cambia a negro */
+    color: black !important; /* Cambia a negro */
 }
 
 /* Cambiar el color del texto de los párrafos */
 p {
-    color: black; /* Cambia a negro */
+    color: black !important; /* Cambia a negro */
 }
 
 /* Cambiar el color del texto de los títulos */
 h1, h2, h3, h4, h5, h6 {
-    color: black; /* Cambia a negro */
+    color: black !important; /* Cambia a negro */
 }
 
+/* Cambiar el color del texto sobre la foto */
+header p {
+    color: black !important; /* Cambia a negro */
+}
+
+/* Cambiar la fuente del cuerpo */
 body {
   font-family: "Roboto Slab", serif;
 }
 
 /* Ocultar el texto "This project is maintained by ..." */
-footer .site-footer {
-  display: none;
+footer {
+    display: none !important;
 }
