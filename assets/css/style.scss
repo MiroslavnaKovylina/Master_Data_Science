@@ -5,19 +5,19 @@
 /* Importar la fuente de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-/* Cambiar el color del enlace sobre la foto a gris oscuro */
-a.photo-link {
-    color: #333333; /* Gris oscuro */
-    text-decoration: none; /* Opcional: eliminar el subrayado */
+/* Cambiar el color del texto de los enlaces */
+a {
+    color: black; /* Cambia a negro */
 }
 
-a.photo-link:hover {
-    color: #555555; /* Un gris ligeramente más claro al pasar el ratón */
+/* Cambiar el color del texto de los párrafos */
+p {
+    color: black; /* Cambia a negro */
 }
 
-h1, .site-title {
-  color: #333333; /* Gris oscuro */
-  font-family: 'Roboto Slab', serif;
+/* Cambiar el color del texto de los títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: black; /* Cambia a negro */
 }
 
 body {
